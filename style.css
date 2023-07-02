@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Kablammo&family=Noto+Serif+Telugu:wght@200;400&family=Poppins:wght@400;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --primary-text-color: #183b56;
+    --secondary-text-color: #577592;
+    --accent-color: #2294ed;
+    --accent-color-dark: #1d69a3;
+    --padding-inline-section:20px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    color: var(--primary-text-color);
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+h3{
+    font-size: 1.5rem ;
+}
+h4{
+    font-size: 1rem;
+}
+p{
+    font-family: 'Roboto',sans-serif;
+    font-size: 1.25rem;
+    color: var(--secondary-text-color);
+    line-height: 1.8rem;
+}
+a{
+    text-decoration: none;
+    display: inline-block;
+}
+.flex{
+    display: flex;
+    /* align-items: center; */
+    flex-direction: column;
+}
+.outerbox{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background:linear-gradient(to top left, blueviolet, aqua );
+    gap: 10px;
+}
+
+.innerbox{
+    width: 490px;
+    height: 565px;
+    border: 2px solid blueviolet;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(219, 241, 241);
+    border-radius: 7px;
+    box-shadow: 2px 2px 5px blueviolet;
+    /* margin: 0 auto;
+    position: relative;
+    top: 46%;
+    transform: translateY(-50%); */
+}
+
+.box{
+    margin: 5px;
+    margin-left: 45px;
+    margin-right: 45px;
+}
+.box input{
+    padding: 10px;
+}
+.btn{
+    padding: 8px;
+}
+#box0{
+   text-align: center;
+   margin-bottom: 10px;
+}
+.btn{
+    background-color: var(--accent-color);
+    color: white;
+    border-radius: 4px;
+}
+.btn:hover{
+    background-color: var(--accent-color-dark);
+}
+.circle{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+    background: linear-gradient(to right ,rgb(122, 191, 253),rgb(175, 100, 246));
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(107, 102, 109);
+}
